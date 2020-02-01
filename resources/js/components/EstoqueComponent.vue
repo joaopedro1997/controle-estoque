@@ -1,6 +1,6 @@
 <template>
 
-    <table-component @update="atualizarLista" @refazerGet="refazerGet" @addproduto="addproduto" @DelProduto="apagaLista" :produtos="produtos" v-bind:produtos="produtos"  ></table-component>
+    <table-component @update="atualizarLista" @refazerGet="refazerGet" @addproduto="addproduto" @DelProduto="apagaLista" :produtos="produtos" v-bind:produtos ="produtos"  ></table-component>
 
 </template>
 
